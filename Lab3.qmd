@@ -13,10 +13,37 @@ Install.Packages() should be typed into the Console
 
 ## Question 3
 
-library() should be typed into the Console
+library() should be typed into the qmd file
 
 ## Question 4
 
+```{r}
+palmerpenguins::penguins
+```
+The following R code chunk produces the error "Incomplete expression" because the palmerpenguins package is not currently installed onto my computer
 
+## Question 5
 
+```{r}
+library(palmerpenguins)
+palmerpenguins::penguins
+```
+No you do not need the library function if you are attempting to access the palmerpenguins package directly
+
+## Question 6
+
+```{r}
+suppressWarnings(library(dplyr))
+```
+In order to void warning when running packages you must use the suppressWarnings function from base R. 
+
+## Question 7
+
+```{r}
+iris2 <- arrange(iris, Petal.Length)
+
+print(head(iris2))
+```
+
+## Question 8 
 
