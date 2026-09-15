@@ -1,0 +1,22 @@
+---
+title: "Lab3"
+format: html
+---
+
+## Question 1 
+
+The message reports "Already up to date" indicating the computer already contains everything thats on the repository.
+
+## Question 2
+
+Install.Packages() should be typed into the Console
+
+## Question 3
+
+library() should be typed into the Console
+
+## Question 4
+
+
+
+
